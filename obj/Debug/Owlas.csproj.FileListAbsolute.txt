@@ -1,0 +1,5 @@
+C:\Users\Tomas\.ssh\bctfvp\bin\Owlas.dll
+C:\Users\Tomas\.ssh\bctfvp\bin\Owlas.pdb
+C:\Users\Tomas\.ssh\bctfvp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tomas\.ssh\bctfvp\obj\Debug\Owlas.dll
+C:\Users\Tomas\.ssh\bctfvp\obj\Debug\Owlas.pdb

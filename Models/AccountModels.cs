@@ -30,8 +30,8 @@ namespace Owlas.Models
     public class LogOnModel
     {
         [Required]
-        [Display(Name = "User name")]
-        public string UserName { get; set; }
+        [Display(Name = "Endereço de email")]
+        public string Email { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -44,9 +44,6 @@ namespace Owlas.Models
 
     public class RegisterModel
     {
-        [Required]
-        [Display(Name = "User name")]
-        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.EmailAddress)]
@@ -58,10 +55,5 @@ namespace Owlas.Models
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }
-
-        [DataType(DataType.Password)]
-        [Display(Name = "Confirm password")]
-        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
-        public string ConfirmPassword { get; set; }
     }
 }
